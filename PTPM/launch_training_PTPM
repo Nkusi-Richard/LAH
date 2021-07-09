@@ -1,0 +1,2 @@
+
+python main.py --model hamida --dataset Laser --cuda 1 --epoch 5 --sampling_mode cross_val --training_sample 0.75 --batch_size 1 --folder PATH_TO_DATASET  --kfolds 6 --regression --reg_loss mae --learning_rate 0.001 
